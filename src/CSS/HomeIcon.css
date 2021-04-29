@@ -1,0 +1,10 @@
+.fa-map-marker,.fa-building,.fa-plane{
+    font-size: 70px;
+    color: #4caf50;
+}
+.homeicon-shadow{
+    box-shadow: 1px 2px 1px 2px rgb(194, 193, 193);
+}
+.homeicon-shadow:hover{
+    box-shadow: 1px 4px 1px 3px rgb(182, 180, 180);
+}

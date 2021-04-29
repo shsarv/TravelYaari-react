@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans&display=swap');
+
+#signup-intro {
+    background-image: url('./../image/signup/bg2.jpeg');
+    background-size: cover;
+    box-shadow: 2px 7px 2px 2px rgb(190, 190, 190);
+}
+
+@media(max-width:575px) {
+    #signup-intro {
+        visibility: hidden;
+        display: none;
+    }
+}
+#signup-form-intro{
+    background-image: url("../image/signup/signup.jpg");
+    background-size: cover;
+    box-shadow: 2px 7px 2px 2px rgb(190, 190, 190);
+}
+
+#signup-form-intro2{
+    background-color: rgba(239, 240, 239, 0.5);
+
+}

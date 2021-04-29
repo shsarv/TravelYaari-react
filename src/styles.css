@@ -1,0 +1,313 @@
+/**
+ * border radius
+ */
+ /* @import url('https://fonts.googleapis.com/css2?family=Piedra&display=swap');
+
+.btn,
+.jumbotron-me,
+.nav :hover {
+    border-radius: 0px;
+}
+
+
+.cart-badge,
+.cart-badge:hover {
+    border-radius: 50%;
+    padding: 0.2rem;
+    font-size: 14px;
+    font-weight: 600;
+    font-style: italic;
+    background: rgb(1, 100, 107);
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.name {
+    background: indigo;
+    color: #fff;
+    font-weight: bold;
+}
+.black-10 {
+    color: rgb(6, 129, 68);
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.black-9 {
+    color: rgb(15, 143, 160);
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.black-8 {
+    color: rgb(223, 22, 99);
+    padding-left: 0.5rem;
+    font-weight: 600;
+}
+.black-7 {
+    background: #cccccc;
+}
+.black-6 {
+    background: #bfbfbf;
+}
+.black-5 {
+    background: #b3b3b3;
+}
+
+.product-img {
+    min-height: 100px;
+}
+
+.jumbotron-me {
+    margin-top:0.3rem;
+    padding: 0.2rem;
+    text-align: center;
+    height: max-content;
+    color: rgb(251, 250, 252);
+    background: linear-gradient(-45deg, #52ee8e, #3cbfe7, #504de9, #9839e6);
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 10s ease infinite;
+    -moz-animation: Gradient 10s ease infinite;
+    animation: Gradient 10s ease infinite;
+}
+@-webkit-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@-moz-keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes Gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+} */
+/* .navbar{
+    padding: 0.2rem 2rem;
+    
+}
+.navbar-brand{
+    font-size: 30px;
+    color: #e73c7e;
+}
+.nav-link{
+    font-family: 'Lora', serif;
+    font-size: 16px;
+    font-weight: bolder;
+}
+.hm-gradient {
+    background-image: linear-gradient(to top, #f3e7e9 0%, #e3eeff 99%, #e3eeff 100%);
+}
+.darken-grey-text {
+    color: #2E2E2E;
+}
+#my-navigation-front{
+    background: #4caf50 !important;
+    background-size: 400% 400%;
+    -webkit-animation: Gradient 15s ease infinite;
+    -moz-animation: Gradient 15s ease infinite;
+    animation: Gradient 15s ease infinite;
+} */
+/*----------- home ------------*/
+.home-h2-main{
+    color: turquoise;
+    box-shadow: 2px 5px #4f6c75;
+}
+.home-h2{
+    color: rgb(64, 224, 85);
+    box-shadow: 2px 5px #64856a;
+}
+/* -------------------signin page css starts here------------------------------ */
+.signin{
+    background-image: url("./image/signin.jpg");
+    background-size: cover;
+}
+
+.signin-description,.signin-form {
+    background: linear-gradient(rgba(0, 0, 0, 0.51),rgba(0, 0, 0, 0.51));
+}
+.signin .text-muted{
+    color: orange !important;
+}
+.signin h1{
+    background: rgba(0, 0, 0, 0.7);
+    color: orange;
+}
+#signin-description-text{
+    color: rgb(164, 247, 247) !important;
+}
+/* ----------------------signup starts here-------------------- */
+#signup{
+    padding:1rem;
+    margin:1rem auto;
+
+}
+#signup #signup-form{
+     border: 3px solid rgb(25, 114, 231);
+     padding: 2rem;
+     box-shadow:5px 10px 8px 10px #888888;
+     border-radius:5%;
+     -webkit-border-radius:5%;
+     -moz-border-radius:5%;
+     -ms-border-radius:5%;
+     -o-border-radius:5%;
+}
+
+#signup #signup-form h1{
+    font-size: 30px;
+    font-weight: bolder;
+    text-align: center;
+    color: teal;
+    border-bottom: 3px solid red;
+    padding-bottom: 1rem;
+    margin-bottom: 2rem;
+}
+/*--------------------- search------------------------------- */
+#search form{
+    margin: 1rem;
+    border-radius: 1%;
+    -webkit-border-radius: 1%;
+    -moz-border-radius: 1%;
+    -ms-border-radius: 1%;
+    -o-border-radius: 1%;
+    box-shadow: 2px 5px rgb(235, 234, 234);
+}
+#category-select{
+    background-color: white;
+    color: blue;
+}
+#catogory-select-parent{
+    background-color: rgb(83, 163, 184);
+}
+#option-search{
+    background-color: white;
+}
+#search form .input-group-text{
+    background-color: rgb(83, 163, 184);
+}
+#search-by-name{
+    margin-top:0.5rem;
+    
+}
+#search-button{
+    color: white;
+    border: 2px solid rgb(0, 255, 13);
+    background-color: green;
+}
+
+#search-button:hover{
+    color: white;
+    border: 2px solid rgb(220, 243, 92);
+}
+/*-------------------- card ---------------------------------------*/
+.card{
+    margin-top: 0.2rem;
+}
+.card-header-1{
+    background-color: rgb(59, 194, 194);
+    color:white;
+    font-weight: bold;
+    font-size: 16px;
+}
+#card-product-description{
+    font-weight: 600;
+    font-size: 17px;
+    padding: 0.3rem;
+    color:hotpink;
+    background-color: rgb(243, 241, 241);
+
+}
+#view-product,#add-to-cart{
+    font-weight: 600;
+    padding: 0.3rem;
+    margin:0.2rem;
+    font-size: 16px;
+
+}
+
+#shop h4{
+    font-size: 20px;
+    font-weight: bolder;
+    border-bottom: 3px solid turquoise;
+    padding: 0.2rem;
+    margin: 0.5rem auto;
+    color: teal;
+
+}
+#shop ul{
+    font-weight: 600;
+    color: violet;
+}
+#shop #radio-button-shop{
+    font-weight: 600;
+    color: yellowgreen;
+}
+#shop h2{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 1rem 0.2rem 0.2rem;
+    margin: 1rem;
+    border-bottom: teal solid 3px;
+    box-shadow: turquoise 1px 5px;
+    color: rgb(43, 2, 44);
+
+}
+#cart #cart-with-item{
+    font-weight: 600 ;
+    padding: 0.3rem auto;
+    margin-top: 2rem;
+    color: rgb(8, 77, 77);
+    text-align: center;
+}
+#cart-empty{
+    font-weight: 600 ;
+    padding: 2rem auto;
+    margin-top: 2rem;
+    color: rgb(8, 77, 77);
+    line-height: 30px;
+    text-align: center;
+}
+#cart-summery{
+    font-weight: 600 ;
+    padding: 2rem auto;
+    margin-top: 2rem;
+    box-shadow: 1px  5px rgb(139, 241, 182);
+    color: rgb(7, 122, 26);
+    border: rgb(126, 224, 228) 1px solid;
+    text-align: center;
+}
+#cart-summery-box{
+    box-shadow: rgb(198, 199, 199) 5px 10px;
+    margin-top: 1rem;
+    padding: 1rem;
+    border: gray 1px solid;
+}
+.cart-product-details{
+    box-shadow: rgb(198, 199, 199) 5px 10px;
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: 1px rgb(204, 203, 203) solid;
+    margin-bottom: 1rem;
+}

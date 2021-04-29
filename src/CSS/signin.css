@@ -1,0 +1,25 @@
+
+.login-account-wall {
+    background-color: rgba(41, 51, 51, 0.473);
+}
+
+#login-intro,#login-intro-form {
+    color: white;
+    background-image: url(./../image/login/side.jpg);
+}
+
+@media(max-width:768px) {
+    #login-intro {
+        visibility: hidden;
+        display: none;
+    }
+}
+.loader{
+    position: absolute;
+    z-index: 20;
+    height: 110%;
+    width: 110%;
+    background-color: rgba(212, 209, 209, 0.582);
+    top: -10%;
+    left:-2%;
+}

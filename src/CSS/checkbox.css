@@ -1,0 +1,24 @@
+.category-toolbar input[type='radio']{
+    opacity: 0 !important;
+    position: fixed;
+    width: 0;
+}
+/* .category-toolbar label{
+    display: inline-block;
+    background-color: green;
+    padding: 10px 20px ;
+    font-size: 16px;
+    border: 2px solid #444;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+} */
+
+.category-toolbar label:hover{
+    background-color: #02a308 !important;
+}
+.category-toolbar{
+    box-shadow: 1px 2px rgb(216, 214, 214) !important;
+}

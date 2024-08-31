@@ -45,37 +45,39 @@ See the section about [deployment](https://facebook.github.io/create-react-app/d
 
 <strong>Overview: -</strong>
 
-This project is based on how an effective travel website will make us feel. It is based on a travelling website with fully featured functions that will activate the travelling bug with vibrant imagery. This website contains highlights of some important places along with high quality photography and allow people to book their dream destination with in their budgets. It also includes full customer support, easy payment system, book as per your time choice, full virtual tour of place through different videos and images.  
+ TravelYaari presents a mesmerizing, fully featured travel website that awakens the travel enthusiast within. Vibrant imagery, expertly curated destination highlights, and seamless booking experiences within your budget will leave you spellbound. Enjoy personalized customer support, flexible payment options, and tailored booking schedules that fit your lifestyle. Immerse yourself in captivating virtual tours through stunning videos and images, making your dream getaway an unforgettable reality.
 
 <strong>PROBLEM STATEMENT :-</strong>
 
-People all over the world are fond of travel and tourism. People often find it difficult to search for the best places .To address the issue , we adopt the travelling website which will offer best places among others.   
+Travel enthusiasts worldwide face the daunting challenge of discovering the perfect destinations, often struggling to find the crème de la crème of places to visit. Our innovative travel website solves this problem by showcasing an unparalleled selection of top-tier destinations, expertly curated to make your travel dreams accessible and stress-free.   
 
 <strong>OBJECTIVE:-</strong>
 
-The main objective of the project is to create a website using MERN STACK technologies to continuously provide enjoyable quality excursions/trips on time and on budget. It will also develop enthusiastically satisfied customers all of the time.  
+Our mission is to craft an exceptional, cutting-edge travel website using advanced MERN STACK technologies, delivering: Unforgettable, on-time, and budget-friendly excursions that exceed your wildest dreams Enthusiastically satisfied customers, every time, without exception
 
 
 <strong>FEATURES:-</strong><img src="https://www.flaticon.com/svg/static/icons/svg/2643/2643513.svg" width="24px">
 
-- Full featured Wishlist cart
-- Place pagination
-- User profile with bookings
-- Admin place management
-- Admin user management
-- Admin Booked Order details page
-- Mark booking orders
-- Checkout process (shipping, payment method, etc)
-- PayPal / credit card integration
-- Database (places &amp; users)
+- Wishlist Cart: Collect and cherish your favorite destinations
+- Place Pagination: Effortlessly explore, discover, and get lost in new places
+- User Profile: Manage your bookings, preferences, and travel journal
+- Admin Features:
+    - Place Management: Curate, update, and showcase destination listings
+    - User Management: Monitor, support, and delight registered users
+    - Booked Order Details: Track, manage, and perfect bookings
+    - Mark Booking Orders: Stay organized, on top of bookings, and in control
+- Checkout Process: Streamlined, secure, and hassle-free shipping and payment options
+- Payment Integration: Robust, reliable, and trusted PayPal and credit card transactions
+- Database: Rock-solid storage for places and user data, ensuring seamless performance
     
 
 **TECHNOLOGIES :-**
 
+
+<code><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" title="MongoDB"></code>
+<code><img height="50" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" title="ExpressJS"></code>
  <code><img height="50" src="https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.svg" title="React"></code>
  <code><img height="50" src="https://www.vectorlogo.zone/logos/nodejs/nodejs-ar21.svg" title="NodeJS"></code>
- <code><img height="50" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" title="ExpressJS"></code>
- <code><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" title="MongoDB"></code>
 
 
 

@@ -22,7 +22,7 @@ export default function Team() {
                     <div className="card-body pt-5">
                         <img src={Sarvesh} alt="profile" className="profile" />
                         <h5 className="card-title font-weight-bold">Sarvesh Kumar Sharma</h5>
-                        <p className="card-text">Data Science Enthusiastic & Web Developer</p>
+                        <p className="card-text">Data Scientist & Web Developer</p>
                         <div className="p-2">
                         <h6 className="text-success border-bottom border-info font-weight-bold">Skills</h6>
                         <ul type="none">
@@ -89,7 +89,7 @@ export default function Team() {
                     <div className="card-body pt-5">
                         <img src={Satyam} alt="profile" className="profile" />
                         <h5 className="card-title font-weight-bold">Satyam Kumar Jha</h5>
-                        <p className="card-text">Web Develope & Java Developer</p>
+                        <p className="card-text">Web Developer & Java Developer</p>
                         <div className="p-2">
                         <h6 className="text-success border-bottom border-info font-weight-bold">Skills</h6>
                         <ul type="none">

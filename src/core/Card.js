@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, Redirect } from 'react-router-dom';
 import ShowImage from './ShowImage';
 import moment from 'moment';
+ // eslint-disable-next-line
 import ModalVideo from 'react-modal-video';
 import { addItem, updateItem, removeItem } from './cartHelpers';
 import StarRating from './StarRating';

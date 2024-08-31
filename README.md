@@ -11,7 +11,6 @@
 
 This Project is live at --------> **[https://travelyaari.herokuapp.com](https://travelyaari.herokuapp.com)**
 
-***[Mentor: Pankaj Kapoor](https://github.com/pankkap)***
 
 <hr />
 
@@ -78,105 +77,31 @@ The main objective of the project is to create a website using MERN STACK techno
  <code><img height="50" src="https://www.vectorlogo.zone/logos/expressjs/expressjs-ar21.svg" title="ExpressJS"></code>
  <code><img height="50" src="https://www.vectorlogo.zone/logos/mongodb/mongodb-ar21.svg" title="MongoDB"></code>
 
-<details>
-<summary><strong>TravelYaari Progress Status Report</strong></summary>
 
-### The Project TravelYaari was divided into 3 main part:
-
-1. Complete frontend using HTML5, CSS3 and JavaScript
-2. TravelYaari backend Api using NodeJS and ExpressJS.
-3. TravelYaari fully working website with MERN Stack.
-
-## PART - 1 : -
-
-The Part 1 was divided into 5 phases:
-phase - 1 :( 15 July 2020 **–** 18 July 2020)
-
-- Motive Declaration and resource gathering
-- Analyzing Different travelling Blogs
-- Understanding working of a tour and travel Website.
-
-```
-phase-2 : (18 July 2020 - 10 October 2020)
-```
-- Basic Skelton making of the project
-- index page designing
-- user validation and access generation (login signup)
-- designing pages for authorised and non authorised user.
-```
-phase -3 : (10 Oct 2020 **–** 22 Nov 2020)
-```
-- Creating all the type of places.
-- creating cities page
-- Styling each page.
-- linking videoLink to each destination
-- add overlay to each place for more detail
-```
-phase 4: ( 22 Nov 2020 - 28 Nov 2020)
-```
-- Adding setting service to the user.
-- adding details about us.
-- adding contact page to reach us and booking service.
-- linking each page and making final touch up to each page
-```
-phase 5: ( 2 Dec 2020)
-```
-Deployment of fully working frontend website to GitHub pages.
-
-## PART - 2 : -
-
-```
-phase - 1 :( 15 Jan 2021 – 31 March 2021 )
-```
-- Understanding MERN Stack Technologies.
-- Got skilled in MongoDB and React.
-- Sharpen skills in NodeJS and ExpressJS.
-
-```
-phase-2 : ( 1 April 2021 - 20 April 2021 )
-```
-- Basic Skelton making of the backend /API.
-- user validation and access generation (login signup)
-- Created different controller components for authorization, categorization, users
-    and places.
-- Designed error handling functional components.
-- Defined Model Schema for users, category, Order and places.
-- Initialized different routes for handling API request corresponding to user or
-    admin.
-
-
-## PART - 3 : -
-
-```
-phase - 1 :( 20 April 2021 – 30 April 2021 )
-```
-- Created React App.
-- Designed functional component for navigation bar, carousal, homepage, footer ,
-    signup , signin, and gallery.
-- Developed Components for Admin sides which includes create category, create
-    places, order view, payment gateway, CRUD operational component, order
-    status management, contact handling, feedback and user support.
-- Developed component for user side which includes places, Wishlist, order,
-    payment, gallery, search places, filter and selecting places, view places , take a
-    tour, video tours and so on.
-phase-2 : ( 30 April 2021 - 10 May 2021 )
-- Test debug and Deployment phase.
-- Tested each component and routes and their performance
-- Deployed to Heroku and published at https://travelyaari.herokuapp.com/
-
-</details>
 
 ### How to run the project 🚀:
 
   1. Open the `Terminal`.
   2. Clone the repository by entering `$ git clone https://github.com/shsarv/TravelYaari-react.git `.
   3. Ensure that `NodeJS` and `npm` are installed on the system.
-  4. change the diectory to repository name using  `$ cd https://github.com/shsarv/TravelYaari-react`.
+  4. change the diectory to repository name using  `$ cd TravelYaari-react`.
   4. Create a `.env` file and write `REACT_APP_API_URL='your backend api url'`. look for backend of the project [here](https://github.com/shsarv/TravelYaari-api).
-  5. install the dependencies by executing the follwing command: `$ npm install`.
+  5. install the dependencies by executing the follwing command: `$ npm install` or `$ npm install --openssl-legacy-provide` for base support.
   6. To run the React project. execute `$npm start`. and it will point to the `localhost` server with the port `3000`.
   8. Enter the `IP Address: http://localhost:3000` on a web browser and use the application. make sure that your backend api is running.
 
+
+--------------------
+## Help
+
+### Solution in case of any conflicts.
+
+1. Try to downgrade node version to 17 or 14.
+2. install dependencies with `$ npm install --openssl-legacy-provide`.
+3. you may get some error while installing the dependencies, Look it to the CMD and search for specific issues on Stackoverflow.
+4. In case of any further issue, Raise an issue on github.
+
+-----------------------------
 
 ### Dependencies <img src="https://www.flaticon.com/svg/static/icons/svg/2621/2621122.svg" width="24px">
 
@@ -186,7 +111,7 @@ The following dependencies can be found in [package.json](https://github.com/shs
 
 <table>
   <tr>
-    <td align="center"><a href="https://github.com/shsarv"><img src="https://avatars2.githubusercontent.com/u/55739302?s=400&u=1e7714cb1cbe3437a527a877486c94611f0e7ab0&v=4" width="100px;" alt=""/><br /><sub><b>Sarvesh Kumar Sharma</b></sub></a><br /><a href="#" title="Content">🖋</a> <a href="https://github.com/shsarv/TravelYaari-react/commits?author=shsarv" title="Documentation">📖</a><a href="https://github.com/shsarv/TravelYaari-react/commits?author=shsarv" title="Code">💻</a></td>
+    <td align="center"><a href="https://github.com/shsarv"><img src="https://avatars2.githubusercontent.com/u/55739302?s=400&u=1e7714cb1cbe3437a527a877486c94611f0e7ab0&v=4" width="100px;" alt=""/><br /><sub><b>Sarvesh Kumar Sharma</b></sub></a><br /><a href="/#" title="Content">🖋</a> <a href="https://github.com/shsarv/TravelYaari-react/commits?author=shsarv" title="Documentation">📖</a><a href="https://github.com/shsarv/TravelYaari-react/commits?author=shsarv" title="Code">💻</a></td>
   <td align="center"><a href="https://github.com/sachi42"><img src="https://avatars.githubusercontent.com/u/61285008?v=4" width="100px;" alt=""/><br /><sub><b>Sachi Tripathi</b></sub></a><br /><a href="https://github.com/shsarv/TravelYaari-react/commits?author=sachi42" title="Code">💻</a></td>
     <td align="center"><a href="https://github.com/satyamjha1710"><img src="https://avatars.githubusercontent.com/u/61418608?v=4" width="100px;" alt=""/><br /><sub><b>Satyam Kumar Jha</b></sub></a><br /><a href="https://github.com/shsarv/TravelYaari-react/commits?author=satyamjha1710" title="Code">💻</a></td>
    <tr>

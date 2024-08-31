@@ -1,46 +1,46 @@
 export const photos = [
     {
-      src: "https://source.unsplash.com/2ShvY8Lf6l0/800x599",
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Hill-Stations/AULI.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/Dm-qxdynoEc/800x799",
-      width: 1,
-      height: 1
-    },
-    {
-      src: "https://source.unsplash.com/qDkso9nvCg0/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/iecJiKe_RNg/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/epcsn8Ed8kY/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/NQSWvyVRIJk/800x599",
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Historical/Ayodhya/images/Ayodhya.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/zh7GEuORbUw/600x799",
-      width: 3,
-      height: 4
-    },
-    {
-      src: "https://source.unsplash.com/PpOHJezOalU/800x599",
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Historical1/Taj%20Mahal.jpg",
       width: 4,
       height: 3
     },
     {
-      src: "https://source.unsplash.com/I1ASdgphUH4/800x599",
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Honeymoon/Pahalgam_Valley.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Religious/Mathura/images/10305511Mathura_Kusum_Sarovar_Main.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/Religious/Bodh%20gaya.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/beaches/Baga%20Beach.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/goa/goa10.jpg",
+      width: 4,
+      height: 3
+    },
+    {
+      src: "https://raw.githubusercontent.com/shsarv/TravelYaari/master/places/goa/goa4.jpg",
       width: 4,
       height: 3
     }

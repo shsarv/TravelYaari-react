@@ -1,0 +1,307 @@
+{
+  "src/user/AdminDashboard.js": {
+    "migrated": true,
+    "keys": [
+      {
+        "name": "admin-links-header",
+        "description": "Header text for admin links section",
+        "default": "Admin Links"
+      },
+      {
+        "name": "create-category-link",
+        "description": "Link text for creating a new category",
+        "default": "Create Category"
+      },
+      {
+        "name": "create-place-link",
+        "description": "Link text for creating a new place",
+        "default": "Create Place"
+      },
+      {
+        "name": "view-place-orders-link",
+        "description": "Link text for viewing place orders",
+        "default": "View place Orders"
+      },
+      {
+        "name": "manage-places-link",
+        "description": "Link text for managing places",
+        "default": "Manage Places"
+      },
+      {
+        "name": "manage-categories-link",
+        "description": "Link text for managing categories",
+        "default": "Manage categories"
+      },
+      {
+        "name": "user-information-header",
+        "description": "Header text for user information section",
+        "default": "User Information"
+      },
+      {
+        "name": "",
+        "description": "Text displayed for admin role",
+        "default": "Admin"
+      },
+      {
+        "name": "",
+        "description": "Text displayed for registered user role",
+        "default": "Registered User"
+      },
+      {
+        "name": "",
+        "description": "Title of the dashboard page",
+        "default": "Dashboard"
+      },
+      {
+        "name": "",
+        "description": "Greeting message on dashboard",
+        "default": "G'day"
+      }
+    ]
+  },
+  "src/user/Profile.js": {
+    "migrated": true,
+    "keys": [
+      {
+        "name": "name-label",
+        "description": "Label for name input field in profile update form",
+        "default": "Name"
+      },
+      {
+        "name": "email-label",
+        "description": "Label for email input field in profile update form",
+        "default": "Email"
+      },
+      {
+        "name": "password-label",
+        "description": "Label for password input field in profile update form",
+        "default": "Password"
+      },
+      {
+        "name": "submit-button",
+        "description": "Text for form submission button",
+        "default": "Submit"
+      },
+      {
+        "name": "profile-update-heading",
+        "description": "Title for the profile page",
+        "default": "Profile"
+      },
+      {
+        "name": "",
+        "description": "Description for the profile page",
+        "default": "Update your profile"
+      },
+      {
+        "name": "",
+        "description": "Heading for profile update section",
+        "default": "Profile update"
+      }
+    ]
+  },
+  "src/user/Signin.js": {
+    "migrated": true,
+    "keys": [
+      {
+        "name": "hello-globetrotter",
+        "description": "Greeting message for users on the login form",
+        "default": "Hello Globetrotter"
+      },
+      {
+        "name": "email-label",
+        "description": "Alt text for the avatar image",
+        "default": ""
+      },
+      {
+        "name": "password-label",
+        "description": "Label for email input field",
+        "default": "Email"
+      },
+      {
+        "name": "submit-button",
+        "description": "Label for password input field",
+        "default": "Password"
+      },
+      {
+        "name": "or-text",
+        "description": "Text for the submit button",
+        "default": "Submit"
+      },
+      {
+        "name": "create-account-link",
+        "description": "Text for the or separator",
+        "default": "or"
+      },
+      {
+        "name": "welcome-message",
+        "description": "Text for the create account link",
+        "default": "Create an account"
+      },
+      {
+        "name": "service-message",
+        "description": "Welcome message on the login page",
+        "default": "Welcome toTravelYaari"
+      },
+      {
+        "name": "",
+        "description": "Alt text for the signup image",
+        "default": "signup"
+      },
+      {
+        "name": "",
+        "description": "Message about service quality",
+        "default": "We Are Happy to see you here. We are working to provide the best services to you."
+      },
+      {
+        "name": "",
+        "description": "Text shown during loading state",
+        "default": "Loading......"
+      }
+    ]
+  },
+  "src/user/Signup.js": {
+    "migrated": true,
+    "keys": [
+      {
+        "name": "signup-heading",
+        "description": "Heading for the signup form",
+        "default": "Signup"
+      },
+      {
+        "name": "name-label",
+        "description": "Label for the name input field",
+        "default": "Name"
+      },
+      {
+        "name": "email-label",
+        "description": "Label for the email input field",
+        "default": "Email"
+      },
+      {
+        "name": "password-label",
+        "description": "Label for the password input field",
+        "default": "Password"
+      },
+      {
+        "name": "password-again-label",
+        "description": "Label for the password confirmation input field",
+        "default": "Password again"
+      },
+      {
+        "name": "submit-button",
+        "description": "Text for the submit button",
+        "default": "Submit"
+      },
+      {
+        "name": "already-have-account",
+        "description": "Text asking if user already has an account",
+        "default": "Already have an Account ?"
+      },
+      {
+        "name": "signin-link",
+        "description": "Text for the signin link",
+        "default": "Signin"
+      },
+      {
+        "name": "welcome-message",
+        "description": "Welcome message for new users",
+        "default": "Welcome to TravelYaari"
+      },
+      {
+        "name": "service-message",
+        "description": "Message about service quality",
+        "default": "We Are Happy to see you here. We are working to provide the best services to you."
+      },
+      {
+        "name": "terms-agreement",
+        "description": "Alt text for signup image",
+        "default": "signup"
+      },
+      {
+        "name": "explore-world",
+        "description": "Text about agreeing to terms and services",
+        "default": "By Signin, you Agree to our terms and Services."
+      },
+      {
+        "name": "account-created",
+        "description": "Motivational message about exploring the world",
+        "default": "Let's Explore the World !!!!"
+      },
+      {
+        "name": "signin-link",
+        "description": "Success message for account creation",
+        "default": "New account is created. Please"
+      },
+      {
+        "name": "",
+        "description": "Text for the signin link",
+        "default": "Signin"
+      }
+    ]
+  },
+  "src/user/UserDashboard.js": {
+    "migrated": true,
+    "keys": [
+      {
+        "name": "user-links-header",
+        "description": "Header text for user links section",
+        "default": "User Links"
+      },
+      {
+        "name": "my-wishlisted-places",
+        "description": "Navigation link text for wishlisted places",
+        "default": "My Wishlisted places"
+      },
+      {
+        "name": "update-profile",
+        "description": "Navigation link text for profile update",
+        "default": "Update My Profile"
+      },
+      {
+        "name": "user-information-header",
+        "description": "Header text for user information section",
+        "default": "User Information"
+      },
+      {
+        "name": "purchase-history-header",
+        "description": "Text displayed for admin role",
+        "default": "Admin"
+      },
+      {
+        "name": "",
+        "description": "Text displayed for regular user role",
+        "default": "Registered Travelyaari User 😇"
+      },
+      {
+        "name": "",
+        "description": "Header text for purchase history section",
+        "default": "Purchase history"
+      },
+      {
+        "name": "",
+        "description": "Label for product name in purchase history",
+        "default": "Product name"
+      },
+      {
+        "name": "",
+        "description": "Label for product price in purchase history",
+        "default": "Product price"
+      },
+      {
+        "name": "",
+        "description": "Label for purchase date in purchase history",
+        "default": "Purchased date"
+      },
+      {
+        "name": "",
+        "description": "Title of the dashboard page",
+        "default": "Dashboard"
+      },
+      {
+        "name": "",
+        "description": "Greeting message for the user",
+        "default": "G'day"
+      }
+    ]
+  }
+}

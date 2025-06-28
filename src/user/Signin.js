@@ -7,7 +7,10 @@ import LoadingOverlay from 'react-loading-overlay';
 import avatar from './../image/login/avatar.png';
 import sideimage from './../image/login/side.jpg';
 import './../CSS/signin.css';
+import { T, useTranslate } from '@tolgee/react';
+
 const Signin = () => {
+    const { t } = useTranslate();
     const [values, setValues] = useState({
         email: "",
         password: "",
@@ -43,12 +46,15 @@ const Signin = () => {
     const signUpForm = () => (
         <div className="row display-flex mt-3">
             <div className="col-sm-8 col-xs-10 col-md-4 offset-md-2 offset-sm-2 offset-xs-1 py-4 px-3 rounded-left" id="login-intro-form">
-                <h2 className="text-center text-white h2 font-weight-bold mt-2">Hello Globetrotter</h2>
+                <h2 className="text-center text-white h2 font-weight-bold mt-2">
+<T keyName="hello-globetrotter" /></h2>
                 <div className="login-account-wall p-4 mb-2">
-                    <img className="rounded-circle mx-auto d-block" src={avatar} alt="" />
+                    <img className="rounded-circle mx-auto d-block" src={avatar} alt={
+t('avatar-image')} />
                     <form>
                         <div className="form-group mt-3">
-                            <label className="text-white font-weight-bold">Email</label>
+                            <label className="text-white font-weight-bold">
+<T keyName="email-label" /></label>
                             <input
                              onChange={handleChange("email")}
                             type="email"
@@ -58,7 +64,8 @@ const Signin = () => {
                         </div>
 
                         <div className="form-group mt-3">
-                            <label className="text-white font-weight-bold">Password</label>
+                            <label className="text-white font-weight-bold">
+<T keyName="password-label" /></label>
                             <input
                                 onChange={handleChange("password")}
                                 type="password"
@@ -67,20 +74,26 @@ const Signin = () => {
                             />
                         </div>
                         <button onClick={clickSubmit} className="btn btn-success btn-block rounded font-weight-bold text-center">
-                        Submit
+                        
+<T keyName="submit-button" />
                         </button>
                     </form>
                     <div className="text-center">
-                    <span className="text-center d-block text-danger font-weight-bold text-italic">or</span>
-                    <Link to="/signup" className="text-white">Create an account </Link>
+                    <span className="text-center d-block text-danger font-weight-bold text-italic">
+<T keyName="or-text" /></span>
+                    <Link to="/signup" className="text-white">
+<T keyName="create-account-link" /></Link>
                     </div>
                 </div>
 
             </div>
             <div className="col-sm-8 col-xs-10 col-md-4 rounded-right py-4 px-3" id="login-intro">
-                <h2 className="login-login-title text-center mt-2 h2">Welcome toTravelYaari</h2>
-                <img className="img-fluid img-rounded" src={sideimage} alt="signup" />
-                <p className="text-center text-warning">We Are Happy to see you here. We are working to provide the best services to you.</p>
+                <h2 className="login-login-title text-center mt-2 h2">
+<T keyName="welcome-message" /></h2>
+                <img className="img-fluid img-rounded" src={sideimage} alt={
+t('signup-image')} />
+                <p className="text-center text-warning">
+<T keyName="service-message" /></p>
             </div>
         </div>
     );
@@ -102,7 +115,8 @@ const Signin = () => {
             <LoadingOverlay
         active={loading}
         spinner
-        text='Loading......'
+        text={
+t('loading-text')}
         className="loader">
         </LoadingOverlay>
         );

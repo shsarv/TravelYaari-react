@@ -4,9 +4,11 @@ import { isAuthenticated } from "../auth";
 import { Link } from "react-router-dom";
 import { getPurchaseHistory } from "./apiUser";
 import moment from "moment";
+import { T, useTranslate } from "@tolgee/react";
 
 const Dashboard = () => {
     const [history, setHistory] = useState([]);
+    const { t } = useTranslate();
 
     const {
         user: { _id, name, email, role }
@@ -31,16 +33,19 @@ const Dashboard = () => {
     const userLinks = () => {
         return (
             <div className="card mt-4">
-                <h4 className="card-header bg-success text-white font-weight-bold text-center">User Links</h4>
+                <h4 className="card-header bg-success text-white font-weight-bold text-center">
+<T keyName="user-links-header" /></h4>
                 <ul className="list-group">
                     <li className="list-group-item font-weight-bold">
                         <Link className="nav-link" to="/cart">
-                        <i class="fa fa-picture-o" aria-hidden="true"> </i> My Wishlisted places
+                        <i class="fa fa-picture-o" aria-hidden="true"> </i> 
+<T keyName="my-wishlisted-places" />
                         </Link>
                     </li>
                     <li className="list-group-item font-weight-bold">
                         <Link className="nav-link" to={`/profile/${_id}`}>
-                        <i class="fa fa-cog fa-spin fa-1x fa-fw"></i>  Update My Profile
+                        <i class="fa fa-cog fa-spin fa-1x fa-fw"></i> 
+<T keyName="update-profile" />
                         </Link>
                     </li>
                 </ul>
@@ -51,12 +56,15 @@ const Dashboard = () => {
     const userInfo = () => {
         return (
             <div className="card mb-5 mt-4">
-                <h3 className="card-header bg-success text-white font-weight-bold text-center">User Information</h3>
+                <h3 className="card-header bg-success text-white font-weight-bold text-center">
+<T keyName="user-information-header" /></h3>
                 <ul className="list-group">
                     <li className="list-group-item  text-info font-weight-bold"><i class="fa fa-user-circle" aria-hidden="true"></i> &nbsp; {name}</li>
                     <li className="list-group-item  text-info font-weight-bold"><i class="fa fa-envelope" aria-hidden="true"></i> &nbsp; {email}</li>
                     <li className="list-group-item  text-info font-weight-bold"><i class="fa fa-registered" aria-hidden="true"></i> &nbsp;
-                        {role === 1 ? "Admin" : "Registered Travelyaari User 😇"}
+                        {role === 1 ? 
+t('admin-role') : 
+t('user-role')}
                     </li>
                 </ul>
             </div>
@@ -66,7 +74,8 @@ const Dashboard = () => {
     const purchaseHistory = history => {
         return (
             <div className="card mb-5">
-                <h3 className="card-header bg-success text-white font-weight-bold text-center">Purchase history</h3>
+                <h3 className="card-header bg-success text-white font-weight-bold text-center">
+<T keyName="purchase-history-header" /></h3>
                 <ul className="list-group">
                     <li className="list-group-item text-warning font-weight-bold">
                         {history.map((h, i) => {
@@ -76,12 +85,15 @@ const Dashboard = () => {
                                     {h.products.map((p, i) => {
                                         return (
                                             <div key={i}>
-                                                <h6>Product name: {p.name}</h6>
+                                                <h6>{
+t('product-name')}: {p.name}</h6>
                                                 <h6>
-                                                    Product price: ${p.price}
+                                                    {
+t('product-price')}: ${p.price}
                                                 </h6>
                                                 <h6>
-                                                    Purchased date:{" "}
+                                                    {
+t('purchased-date')}:{" "}
                                                     {moment(
                                                         p.createdAt
                                                     ).fromNow()}
@@ -100,8 +112,10 @@ const Dashboard = () => {
 
     return (
         <Layout
-            title="Dashboard"
-            description={`G'day ${name}!`}
+            title={
+t('dashboard-title')}
+            description={`${
+t('greeting')} ${name}!`}
             className="container-fluid"
         >
             <div className="row">
